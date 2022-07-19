@@ -8,7 +8,7 @@ function doGet(e) {
 
 function getSheetData()  { 
   var a= SpreadsheetApp.getActiveSpreadsheet();
-  var b = a.getSheetByName('Sheet1'); 
+  var b = a.getSheetByName('Data'); 
   var c = b.getDataRange();
   return c.getValues();  
 }
